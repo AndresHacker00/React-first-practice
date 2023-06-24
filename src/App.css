@@ -1,0 +1,42 @@
+@keyframes rainbow {
+    0% { color: red; }
+    14% { color: orange; }
+    28% { color: yellow; }
+    43% { color: green; }
+    57% { color: blue; }
+    71% { color: indigo; }
+    85% { color: violet; }
+    100% { color: red; }
+  }
+  
+  section {
+    display: 20px;
+    justify-content: flex-start; /* Align text to the left */
+    align-items: center;
+    height: 20px;
+  }
+  
+  .viteText {
+    animation: rainbow 5s linear infinite;
+    font-size: 56px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+  }
+  
+  .titleText {
+    font-size: 56px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+  }
+  
+  .getreadyText {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+  }
+  
+  body {
+    background: #1e1e20;
+  }
+  
+
